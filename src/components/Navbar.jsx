@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src={'../../public/soccer.png'} alt="DeporteTrabajo Logo" className="logo-image" />
+          <img src={'soccer.png'} alt="DeporteTrabajo Logo" className="logo-image" />
         </Link>
         <ul className="navbar-links">
           <li><Link to="/jobs">Empleos</Link></li>
