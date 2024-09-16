@@ -1,0 +1,194 @@
+.landing-page .hero {
+    /*background-color: var(--primary-color);*/
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23113077' fill-opacity='0.58' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    color: #113077;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .landing-page .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-page .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .landing-page .search-bar {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .landing-page .search-bar input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem 0 0 0.25rem;
+  }
+  
+  .landing-page .search-bar button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+    cursor: pointer;
+  }
+  
+  .landing-page .latest-jobs,
+  .landing-page .post-job {
+    padding: 4rem 0;
+  }
+  
+  .landing-page h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .landing-page .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .landing-page .job-card {
+    background-color: var(--card-background);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .landing-page .job-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .landing-page .job-card p {
+    margin-bottom: 0.5rem;
+    color: #718096;
+  }
+  
+  .landing-page .post-job {
+    background-color: #edf2f7;
+  }
+  
+  .landing-page .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .landing-page .main-footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 3rem 0;
+  }
+  
+  .landing-page .main-footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .landing-page .footer-section h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .landing-page .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .landing-page .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .landing-page .footer-section ul li a {
+    color: #a0aec0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .landing-page .footer-section ul li a:hover {
+    color: white;
+  }
+
+  /* Existing styles... */
+
+.latest-jobs {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .latest-jobs h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .job-card p {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .button-group {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .job-list {
+      grid-template-columns: 1fr;
+    }
+  }

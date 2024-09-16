@@ -1,0 +1,114 @@
+.pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .pricing-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .pricing-header h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-header p {
+    color: #4a5568;
+    font-size: 1.1rem;
+  }
+  
+  .pricing-plans {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .pricing-card {
+    background-color: var(--card-background);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pricing-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .pricing-card h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-card .price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  .pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+  }
+  
+  .pricing-card li {
+    margin-bottom: 0.75rem;
+    color: #4a5568;
+  }
+  
+  .pricing-card li::before {
+    content: "✓";
+    color: #48bb78;
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .pricing-card .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-plans {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .pricing-plans {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .popular-plan {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .popular-plan::before {
+    content: "Popular";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 3rem;
+    transform: rotate(45deg) translate(25%, -50%);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }

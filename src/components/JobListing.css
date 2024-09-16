@@ -1,0 +1,42 @@
+.job-list {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .job-card {
+    background-color: var(--card-background);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: box-shadow 0.3s;
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .job-card h2 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+  }
+  
+  .job-card p {
+    margin-bottom: 0.5rem;
+    color: #718096;
+  }
+  
+  .job-card .btn {
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .job-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .job-list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }

@@ -1,0 +1,148 @@
+/* Global Styles */
+:root {
+  --primary-color: #113077;
+  --secondary-color: #2c5282;
+  --background-color: #f7fafc;
+  --text-color: #2d3748;
+  --card-background: #ffffff;
+  --border-color: #e2e8f0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: #718096;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #4a5568;
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Job Listing Styles */
+.job-list {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .job-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.job-card .btn-group {
+  margin-top: auto;
+}
+
+/* Job Detail Styles */
+.company-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.company-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+.btn-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid-3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
