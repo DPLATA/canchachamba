@@ -6,7 +6,7 @@ import { jobs } from '../jobs';
 
 function LandingPage() {
     
-      const latestJobs = jobs.slice(0, 3);
+  const latestJobs = jobs.slice(-3);
 
   return (
     <div className="landing-page">

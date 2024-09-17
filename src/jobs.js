@@ -47,5 +47,13 @@ export const jobs = [
       src: "https://cdn.prod.website-files.com/6526575290932cab2b63fb1c/6527e76c38d4e13f4a17f3fd_Zelus_Logo__White.png",
       applyLink: 'https://ats.rippling.com/teamworks-careers/jobs/6425a2c9-5f2d-4600-a456-de4858b5f8f8'
     },
+    { 
+      id: 7, 
+      title: 'Creador/Creadora de Contenido', 
+      company: 'Club América', 
+      location: 'Remoto',
+      src: 'https://www.clubamerica.com.mx/wp-content/uploads/2021/04/cropped-club-america-1.png',
+      applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf1J0fYx9Z86hxA3EDGadzaYglwAdZEcDl887WzmafynnTr7A/viewform'
+    }    
     
   ];
