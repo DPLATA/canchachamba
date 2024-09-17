@@ -31,4 +31,21 @@ export const jobs = [
       src: "https://capitanes.mx/wp-content/uploads/2023/08/Logo-color.png",
       applyLink: 'https://www.linkedin.com/posts/capitanescdmx_capitanes-is-looking-for-a-new-%F0%9D%97%9B%F0%9D%97%B2%F0%9D%97%AE%F0%9D%97%B1-activity-7227795984511070208-4mqR?utm_source=share&utm_medium=member_desktop'
     },
+    { 
+      id: 5, 
+      title: 'Community Manager', 
+      company: 'Venados de Mazatlán', 
+      location: 'Mazatlán, México',
+      src: "https://www.venados.com/wp-content/uploads/2021/10/Venados-logo.png",
+      applyLink: 'https://www.linkedin.com/posts/venados_jobs-mktdigital-communitymanager-activity-7235015097339756544-bUAq?utm_source=share&utm_medium=member_desktop'
+    },
+    { 
+      id: 6, 
+      title: 'Senior Data Engineer', 
+      company: 'Zelus Analytics', 
+      location: 'Remoto',
+      src: "https://cdn.prod.website-files.com/6526575290932cab2b63fb1c/6527e76c38d4e13f4a17f3fd_Zelus_Logo__White.png",
+      applyLink: 'https://ats.rippling.com/teamworks-careers/jobs/6425a2c9-5f2d-4600-a456-de4858b5f8f8'
+    },
+    
   ];
