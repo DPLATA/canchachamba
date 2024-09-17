@@ -62,6 +62,14 @@ export const jobs = [
       location: 'Monterrey, México',
       src: 'https://stats.futbolytics.com/imagesSitio/equipos/rayados-caudrado.svg',
       applyLink: 'https://www.linkedin.com/posts/clubdefutbolmonterreyrayados_s%C3%A9-parte-de-nuestro-once-titular-estamos-activity-7234327158276444161-L3Q6?utm_source=share&utm_medium=member_desktop'
-    }       
+    },
+    { 
+      id: 9, 
+      title: 'Abogado Deportivo Jr', 
+      company: 'Federación Mexicana de Futbol', 
+      location: 'Toluca, México',
+      src: 'https://media.licdn.com/dms/image/v2/D4E0BAQEM-rQ5M0cWlQ/company-logo_200_200/company-logo_200_200/0/1702311305306/fmfoficial_logo?e=1734566400&v=beta&t=FvZL92jXc-UCl6WgmSnX7RrXo4xPmo-w0llaeWWk0Ik',
+      applyLink: 'https://www.linkedin.com/posts/fmfoficial_talentofmf-pornuestrofutbol-activity-7241849941738893312-pS61?utm_source=share&utm_medium=member_desktop'
+    }      
     
   ];
