@@ -54,6 +54,14 @@ export const jobs = [
       location: 'Remoto',
       src: 'https://www.clubamerica.com.mx/wp-content/uploads/2021/04/cropped-club-america-1.png',
       applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf1J0fYx9Z86hxA3EDGadzaYglwAdZEcDl887WzmafynnTr7A/viewform'
-    }    
+    },
+    { 
+      id: 8, 
+      title: 'gestor de franquicias de Escuelas Oficiales', 
+      company: 'Club de Futbol Monterrey Rayados', 
+      location: 'Monterrey, México',
+      src: 'https://stats.futbolytics.com/imagesSitio/equipos/rayados-caudrado.svg',
+      applyLink: 'https://www.linkedin.com/posts/clubdefutbolmonterreyrayados_s%C3%A9-parte-de-nuestro-once-titular-estamos-activity-7234327158276444161-L3Q6?utm_source=share&utm_medium=member_desktop'
+    }       
     
   ];
