@@ -71,5 +71,5 @@ export const jobs = [
       src: 'https://media.licdn.com/dms/image/v2/D4E0BAQEM-rQ5M0cWlQ/company-logo_200_200/company-logo_200_200/0/1702311305306/fmfoficial_logo?e=1734566400&v=beta&t=FvZL92jXc-UCl6WgmSnX7RrXo4xPmo-w0llaeWWk0Ik',
       applyLink: 'https://www.linkedin.com/posts/fmfoficial_talentofmf-pornuestrofutbol-activity-7241849941738893312-pS61?utm_source=share&utm_medium=member_desktop'
     }      
-    
+   
   ];
